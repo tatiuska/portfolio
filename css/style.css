@@ -75,7 +75,6 @@
     padding: 8rem 0; /* ajustei de 7rem para 8rem, para melhor ajustar as imagens com o texto */
     width: 90rem;
 }
-
 /* end banner area */
 
 /* start about area */
@@ -92,5 +91,40 @@
 .paragraph > p {
     padding: .4rem 0;
 }
-
 /* end about area */
+
+/* start brand area */
+.brand-area {
+    padding: 1rem 20rem;
+    margin-bottom: 4rem;
+}
+
+.brand-area .first-row .col-lg-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.single-brand {
+    border: 1px solid var(--border-color);
+    text-align: center;
+    padding: 1.8rem 0rem;
+    margin: .9rem 0;
+    width: 180px;
+    height: 100px;
+    cursor: pointer;
+    transition: transform .4s ease;
+}
+
+.single-brand > img {
+    width: 50%;
+}
+
+.single-brand:hover {
+    box-shadow: var(--box-shadow);
+    transform: scale(1.1);
+}
+
+.single-brand:hover > img {
+    filter: brightness(0.15);
+}
+/* end brand area */
