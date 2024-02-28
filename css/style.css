@@ -1,10 +1,13 @@
-/* Import fonts from fonts.css */
+/* Fonts from fonts.css */
 @import url(./fonts.css);
 
-/* CSS variables */
+/* CSS Variables */
 @import url(./partials/_variables.css);
 
-/* start navigation */
+/* Global Styling */
+@import url(./partials/_global.css);
+
+/* start Navigation */
 
 .header-area .main-menu .navbar .navbar-brand {
     padding: 0 2rem 0 5rem;
@@ -34,4 +37,43 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
-/* end navigation */
+/* end Navigation */
+
+/* start Banner area */
+
+.site-main .site-banner {
+    background: url(../img/banner/home-banner.png) no-repeat 0% 50%;
+}
+
+.site-main .site-banner .site-title {
+    padding-left: 5%; /* adicionei para aproximar um pouco mais o texto da imagem do banner */
+}
+.site-main .site-banner .site-title h3 {
+    padding-top: 30%; /* mudei de 35% para 30%, para melhor de ajustar às imagens */
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after {
+    content: "";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1 {
+    font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4 {
+    font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image > img {
+    padding: 8rem 0; /* ajustei de 7rem para 8rem, para melhor ajustar as imagens com o texto */
+    width: 90rem;
+}
+
+/* end banner area */
