@@ -77,3 +77,20 @@
 }
 
 /* end banner area */
+
+/* start about area */
+.about-area {
+    padding: 8rem 5rem;
+}
+
+.about-title h2 > span {
+    display: block;
+    font: normal bold 49px/60px var(--montserrat);
+    letter-spacing: 21px;
+}
+
+.paragraph > p {
+    padding: .4rem 0;
+}
+
+/* end about area */
