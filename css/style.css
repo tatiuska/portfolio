@@ -147,7 +147,7 @@
 .bg-panel {
     position: absolute;
     left: 750px; /* o left estava em -190px e a div ficava mais à esquerda da página */
-    top: 177%; /* o top estava em 0% e essa div aparecia lá no topo da página */
+    top: 176%; /* o top estava em 0% e essa div aparecia lá no topo da página */
     background: #e029290a;
     width: 400px;
     height: 400px;
@@ -169,3 +169,35 @@
     padding-left: 10rem;
 }
 /* end brand area */
+
+/* start services area */
+.services-area {
+    padding: 7rem 2rem;
+}
+
+.services-title {
+    padding: 0 14rem;
+}
+
+.services-title h1 {
+    font-size: 35px;
+}
+
+.services {
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+}
+
+.card-title {
+    padding: 0 0 1rem 0;
+}
+
+.services:hover {
+    box-shadow: var(--box-shadow);
+}
+
+
+/* end services area  */
