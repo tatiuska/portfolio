@@ -220,5 +220,16 @@
     background: transparent;
     border: none;
     font: normal 500 16px/130px var(--montserrat);
+    text-transform: uppercase;
 }
+
+.button-group button + button {
+    padding-left: 3rem;
+}
+
+.projects-area .grid .our-project > .title h4 {
+    font: normal 700 25px/12px var(--montserrat);
+}
+
+
 /* end projects area */
