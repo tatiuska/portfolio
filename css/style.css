@@ -168,6 +168,17 @@
 .call-area {
     padding-left: 10rem;
 }
+
+.call-area a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.call-area a:hover {
+    color: var(--primary-color2);
+    text-decoration: none;
+    transition: .7s ease;
+}
 /* end brand area */
 
 /* start services area */
@@ -198,6 +209,4 @@
 .services:hover {
     box-shadow: var(--box-shadow);
 }
-
-
 /* end services area  */
