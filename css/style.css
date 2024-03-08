@@ -279,7 +279,7 @@
 
 /* start subscribe area */
 .subscribe-area .subscribe {
-    background: url(../img/subscribe-bg.png) no-repeat;
+    background: var(--gradient-color);
     padding: 10rem 0;
     margin: 3rem auto;
 }
@@ -295,7 +295,7 @@
 }
 
 .subscribe form .input-textbox input {
-    width: 500px;
+    width: 400px;
     padding: 0.7rem 1rem;
     border: 1px solid whitesmoke;
     background: transparent;
@@ -311,5 +311,6 @@
     background: whitesmoke;
     color: #000;
     padding: .7rem 2rem;
+    height: 45px;
 }
 /* end subscribe area */
