@@ -1,6 +1,6 @@
 # Tutorial de Portfolio
 
-Site construído de acordo com tutorial do canal Daily Tuition no YouTube, entre 22/02 e 09/03/2024.</br>
+Site construído de acordo com tutorial do canal Daily Tuition no YouTube, entre 22/02/2024 e 09/03/2024.</br>
 
 Stack: VS Code, Git, GitHub, Bootstrap (5.3.3), jQuery (3.7.1), Google Fonts (Montserrat), HTML5, CSS3, JS, FontAwesome, Isotope, Magnific Popup e Owl Carousel.</br>
 
