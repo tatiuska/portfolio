@@ -16,7 +16,7 @@
     }
 
     .subscribe-area .subscribe form .input-textbox input {
-        width: 15rem;
+        width: 15rem !important;
     }
 
     .site-main > .services-area .services {
@@ -56,4 +56,32 @@
     .site-main .about-area .about-title p {
         padding: 0%;
     }
+
+    .site-main .subscribe-area .subscribe form .input-textbox input {
+        width: 16rem;
+        margin: 5%;
+    }
+
+    .site-main .subscribe-area .subscribe button {
+        width: 16rem;
+        align-content: center;
+    } 
+}
+
+/* if the viewport is equal to 1910px or less */
+@media only screen and (max-width: 1910px) {
+    .header-area .main-menu .navbar {
+        padding: 1rem;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+
+    .site-main .brand-area,
+    .site-main .services-area .services-title,
+    .site-main .about-area {
+        padding: 3% 4%;
+    }
+
 }
