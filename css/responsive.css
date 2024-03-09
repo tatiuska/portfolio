@@ -1,0 +1,59 @@
+/* responsive adjustments to the website */
+/* if the viewport is equal to 340px or less */
+@media only screen and (max-width: 340px) {
+    .header-area .main-menu .navbar,
+    .header-area .main-menu .navbar .navbar-brand, 
+    .site-main .subscribe-area .subscribe .subscribe-title 
+    .site-main .subscribe-area .subscribe .subscribe-title p, h4,
+    .site-main .services-area,
+    .site-main .subscribe-area .subscribe {
+        padding: 2%;
+        margin: 0;
+    }
+
+    .site-main .site-banner .site-title h1 {
+        font-size: 41px;
+    }
+
+    .subscribe-area .subscribe form .input-textbox input {
+        width: 15rem;
+    }
+
+    .site-main > .services-area .services {
+        width: 13rem;
+    }
+}
+
+/* if the viewport is equal to 792px or less */
+@media only screen and (max-width: 792px) {
+    .site-main .about-area .about-title h2 > span {
+        font-size: 31px;
+        letter-spacing: 10px;
+    }
+
+    .site-main .brand-area .experience-area .years-area {
+        padding-left: 1%;
+        width: 49%;
+    }
+
+    .site-main .brand-area .experience-area .bg-panel {
+        margin-left: 30%;
+        width: 80%;
+    }
+
+    .site-main .brand-area .experience-area .call-area {
+        padding-left: 3%;
+    }
+
+    .site-main .projects-area .button-group { /* falta centralizar os botões */
+        display: flex;
+        flex-direction: column;
+    }
+    .site-main .projects-area .button-group button {
+        font: normal 500 18px/30px var(--montserrat);
+    }
+
+    .site-main .about-area .about-title p {
+        padding: 0%;
+    }
+}
