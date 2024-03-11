@@ -42,7 +42,7 @@
 /* start Banner area */
 
 .site-main .site-banner {
-    background: url(../img/banner/home-banner.png) no-repeat 0% 50%;
+    background: url(./img/banner/home-banner.png) no-repeat 0% 50%;
 }
 
 .site-main .site-banner .site-title {
@@ -137,7 +137,7 @@
 }
 
 .years-area {
-    background: url(../img/client-info-bg.png) no-repeat 45px 20px;
+    background: url(./img/client-info-bg.png) no-repeat 45px 20px;
     padding: 2rem 0;
     width: 40rem;
     height: 18rem;
@@ -318,7 +318,7 @@
 /* start footer */
 .footer-area {
     padding: 5rem 0;
-    background: url(../img/footer-bg.png) no-repeat;
+    background: url(./img/footer-bg.png) no-repeat;
 }
 
 .footer-area .social h5 {
