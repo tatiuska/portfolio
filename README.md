@@ -12,4 +12,4 @@ Como esse tutorial data de 2019, foi necessário atualizar o código, em especia
 
 #
 Atualização 11/03/2024:</br>
-Após algumas tentativas de deploy da página via GitHub Pages, encontrei alguns conflitos causados pela biblioteca magnific popup. Retirei uma das pastas (website), mas mesmo assim, os problemas continuaram. Também observei problemas no reconhecimento dos caminhos dos arquivos css. Acabei optando por destivar o deploy até resolver isso.</br>
+Após algumas tentativas de deploy da página via GitHub Pages, encontrei alguns conflitos causados pela biblioteca magnific popup. Retirei uma das pastas (website), mas mesmo assim, os problemas continuaram, a seguir com os arquivos css. Revisei todos os caminhos, mas o problema acabou sendo de dois arquivos que foram nomeados (por orientação do tutorial) com um underscore (_) antes do nome. O deploy funcionou após as correções, mas o console continua apontando problemas para o MP, então farei a retirada dessa biblioteca numa futura atualização. </br>
