@@ -17,7 +17,6 @@ node_modules
 _production
 all.min.css
 *.sublime-*
-website/dist/
 *.idea
 /.idea
 .node-version
