@@ -9,3 +9,7 @@ Parte das imagens utilizadas foram cedidas pelo instrutor. No entanto, acabei cr
 Outra parte do código que devo alterar em busca de um resultado mais satisfatório é referente à responsividade do site para telas pequenas.</br>
 
 Como esse tutorial data de 2019, foi necessário atualizar o código, em especial para a utilização da biblioteca Isotope, pois a função proposta no tutorial não estava funcionando. Uma consulta à documentação ajudou a resolver o problema.</br>
+
+#
+Atualização 11/03/2024:</br>
+Após algumas tentativas de deploy da página via GitHub Pages, encontrei alguns conflitos causados pela biblioteca magnific popup. Retirei uma das pastas (website), mas mesmo assim, os problemas continuaram. Também observei problemas no reconhecimento dos caminhos dos arquivos css. Acabei optando por destivar o deploy até resolver isso.</br>
