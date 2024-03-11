@@ -2,7 +2,7 @@
 @import url(./fonts.css);
 
 /* CSS Variables */
-@import url(/portfolio/css/partials/_variables.css);
+@import url(./partials/_variables.css);
 
 /* Global Styling */
 @import url(./partials/_global.css);
