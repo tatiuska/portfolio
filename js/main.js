@@ -12,12 +12,6 @@ $(document).ready(function(){
         $grid.isotope({filter : filterValue});
     });
 
-    // Magnific Popup code
-    $('.test-popup-link').magnificPopup({
-        type: 'image',
-        gallery:{enabled:true}
-    });
-
     // Owl carousel initialization
     $('.owl-carousel').owlCarousel({
         loop: true,
