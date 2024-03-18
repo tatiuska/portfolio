@@ -11,5 +11,5 @@ Outra parte do código que devo alterar em busca de um resultado mais satisfató
 Como esse tutorial data de 2019, foi necessário atualizar o código, em especial para a utilização da biblioteca Isotope, pois a função proposta no tutorial não estava funcionando. Uma consulta à documentação ajudou a resolver o problema.</br>
 
 #
-Atualização 11/03/2024:</br>
-Após algumas tentativas de deploy da página via GitHub Pages, encontrei alguns conflitos causados pela biblioteca magnific popup. Retirei uma das pastas (website), mas mesmo assim, os problemas continuaram, a seguir com os arquivos css. Revisei todos os caminhos, mas o problema acabou sendo de dois arquivos que foram nomeados (por orientação do tutorial) com um underscore (_) antes do nome. O deploy funcionou após as correções, mas o console continua apontando problemas para o MP, então farei a retirada dessa biblioteca numa futura atualização. </br>
+Atualização 18/03/2024:</br>
+Após algumas tentativas de deploy da página via GitHub Pages, encontrei alguns conflitos causados pela biblioteca Magnific Popup, que foi retirada em uma atualização pós-finalização do projeto. </br>
